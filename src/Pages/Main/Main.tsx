@@ -60,10 +60,9 @@ export default function Main({ }: Props) {
 
       </header>
 
-
       <section id="hero" className="d-flex align-items-center">
 
-        {/* <div className="container">
+        <div className="container">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
               <h1>Копи-трейдинг платформа</h1>
@@ -76,7 +75,7 @@ export default function Main({ }: Props) {
               <img className="img-fluid animated" src="https://strg.copytrade.pro/source/1/90cFG4X_Xnwx6CtRh4stScsDujnGa1Vh.png" alt="" />
             </div>
           </div>
-        </div> */}
+        </div>
 
       </section>
     </>
