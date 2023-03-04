@@ -243,7 +243,7 @@ export default function Main() {
                 <div className="card card-body">
                   <div className="row ">
                     <div className="col-md-2 top-trader-photo">
-                      {/* <img className="shadow-lg rounded p-2 text-center" src="https://strg.copytrade.pro/source/1/M_YNhM28Vm3rILYvSiAK4n15J-oP9sxV.png" alt="" />                                  */}
+                      <img className="shadow-lg rounded p-2 text-center" src="https://strg.copytrade.pro/source/1/M_YNhM28Vm3rILYvSiAK4n15J-oP9sxV.png" alt="" />
                     </div>
                     <div className="col-md-4">
                       <div className="trader-name" >
@@ -270,11 +270,12 @@ export default function Main() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-10 col-md-10 col-12 pb-2 flex-center">
                 <div className="card card-body">
                   <div className="row ">
                     <div className="col-md-2 top-trader-photo">
-                      {/* <img className="shadow-lg rounded p-2 text-center" src="https://strg.copytrade.pro/assets/img/other/anonymous.png" alt="" /> */}
+                      <img className="shadow-lg rounded p-2 text-center" src="https://strg.copytrade.pro/assets/img/other/anonymous.png" alt="" />
                     </div>
                     <div className="col-md-4">
                       <div className="trader-name" >
@@ -305,6 +306,118 @@ export default function Main() {
 
             </div>
 
+          </div>
+        </section>
+
+
+
+        <section id="clients" className="clients section-bg">
+          <div className="container">
+            <div className="section-title">
+              <h2>Партнёры</h2>
+            </div>
+
+            <div className="row aos-init aos-animate d-flex align-items-center justify-content-center" data-aos="zoom-in">
+
+              <div className="col-lg-3 col-md-4 col-6">
+                <a href="/" target="_blank"><img src="https://strg.copytrade.pro/source/1/EzhU7qBwYmzkw3CnaCXU_X6FoDa_axbC.png" alt="img" /></a>
+              </div>
+              <div className="col-lg-3 col-md-4 col-6">
+                <a href="/" target="_blank"><img src="https://strg.copytrade.pro/source/1/feuUQicAn7ncWu-CpuYHqujZkp1r6Xh-.png" alt="img" /></a>
+              </div>
+              <div className="col-lg-3 col-md-4 col-6">
+                <a href="/" target="_blank"><img src="https://strg.copytrade.pro/source/1/VOPfnbddypHpDQrqfUBVjfXAguYh6IWU.png" alt="img" /></a>
+              </div>
+              <div className="col-lg-3 col-md-4 col-6">
+                <a href="/" target="_blank"><img src="https://strg.copytrade.pro/source/1/u0olyOsHbVU8-1KlJZ_Mw1CylOnXPZBX.png" alt="img" /></a>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+
+        <section id="blog" className="section-bg">
+          <div className="container">
+            <div className="section-title">
+              <h2>
+                Новости
+              </h2>
+            </div>
+            <div className="row d-flex justify-content-center">
+              <div className="col-sm-3  d-flex pt-2">
+                <div className="card blog-post">
+                  <img className="card-img-top" src="https://strg.copytrade.pro/source/1/SEuKOTVeacfp3xBCMg1SdJmEyghpi276.jpg" alt="" />                                    <div className="card-body">
+                    <p >Что такое маржа на бинансе?</p>
+                    <p ></p>
+                    <p>Платформа Бинанс предлагает всем</p>
+                    <div className="d-flex align-content-end flex-column">
+                      <p>
+                        <a className="btn btn-primary btn-block" href="/post/view?slug=what-is-margin-on-binance">Подробнее</a>
+                      </p>
+                      <p className="info-text text-right">
+                        <i className="far fa-clock"></i> 01.Mar 2023 14:17
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-3  d-flex pt-2">
+                <div className="card blog-post">
+                  <img className="card-img-top" src="https://strg.copytrade.pro/source/1/8bJm_PVNjGAOma89lxN8zNXGJk1KfKAX.jpg" alt="" />                                    <div className="card-body">
+                    <p > Что значит ликвидация на бинанс?</p>
+                    <p ></p><p>Для предотвращения ликвидации, которую</p>
+                    <div className="d-flex align-content-end flex-column">
+                      <p>
+                        <a className="btn btn-primary btn-block" href="/post/view?slug=what-does-liquidation-at-binans-mean">Подробнее</a>
+                      </p>
+                      <p className="info-text text-right">
+                        <i className="far fa-clock"></i> 01.Mar 2023 13:51
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-3  d-flex pt-2">
+                <div className="card blog-post">
+                  <img className="card-img-top" src="https://strg.copytrade.pro/source/1/qikNOPJPzEKsWfetCHvZSUwkD0WhiEzu.jpg" alt="" />                                    <div className="card-body">
+                    <p >Фарминг стекинг</p>
+                    <p ></p><p>Сегодня существует несколько способов</p>
+                    <div className="d-flex align-content-end flex-column">
+                      <p>
+                        <a className="btn btn-primary btn-block" href="/post/view?slug=farming-stacking">Подробнее</a>
+                      </p>
+                      <p className="info-text text-right">
+                        <i className="far fa-clock"></i> 01.Mar 2023 12:48
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-3  d-flex pt-2">
+                <div className="card blog-post">
+                  <img className="card-img-top" src="https://strg.copytrade.pro/source/1/GayGJBnsJz8VJ1FRozpM4u1vtJsZ4WRN.jpg" alt="" />                                    <div className="card-body">
+                    <p >Скачать биржевого робота торрент бина...</p>
+                    <p ></p><p>Платформа Binance уже давно предлагает</p>
+                    <div className="d-flex align-content-end flex-column">
+                      <p>
+                        <a className="btn btn-primary btn-block" href="/post/view?slug=download-trading-bot-torrent-binance">Подробнее</a>
+                      </p>
+                      <p className="info-text text-right">
+                        <i className="far fa-clock"></i> 01.Mar 2023 11:39
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="d-flex justify-content-center">
+                <div className="col-sm-4  col-12 pt-3">
+                  <a className="btn btn-primary" href="/post/index" >Все новости</a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

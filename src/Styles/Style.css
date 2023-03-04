@@ -206,6 +206,13 @@
   color: var(--primary);
 }
 
+#top-traders .card-body .row {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #top-traders .aos-init {
   display: flex;
   justify-content: center;
@@ -214,10 +221,96 @@
   flex-direction: column;
 }
 
-#top-traders .col-lg-10 {
-  width: 60vw;
+#top-traders .card {
+  width: 70vw;
   height: 150px;
+  padding: 0 20px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#top-traders img {
+  width: 100px;
+}
+
+#clients .section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px 0;
+  color: var(--primary);
+}
+
+#clients .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+#clients img {
+  width: 250px;
+}
+
+#blog {
+  margin: 50px 0;
+}
+
+#blog .section-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px 0;
+  color: var(--primary);
+}
+
+#blog .row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#blog .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 0 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#blog img {
+  width: 180px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#blog p:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary);
+  text-align: center;
+  margin: 30px 0;
+}
+
+#blog p:nth-child(3) {
+  font-size: 1.1rem;
+}
+
+#blog .btn {
+  padding: 12px 20px;
+  background-color: var(--onPrimary);
+  border-radius: 15px;
+  border: 2px solid var(--onPrimary);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#blog .btn:nth-child(1) {
+  background-color: red !important;
+}
+
+#blog .info-text {
+  text-align: end;
 }
