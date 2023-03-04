@@ -412,16 +412,77 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div className="d-flex justify-content-center">
+              {/* <div className="d-flex justify-content-center">
                 <div className="col-sm-4  col-12 pt-3">
                   <a className="btn btn-primary" href="/post/index" >Все новости</a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
 
       </main>
+
+      <footer id="footer">
+        <div className='footer-top'>
+          <div className="container">
+            <div className="row">
+
+              <div className="col-lg-4 col-md-6 footer-contact">
+                <h3>
+                  <img src="https://strg.copytrade.pro/source/1/Ll_VTlDUEifHFr-lQzFcYoGpBw0TTllR.png" height="26px" alt="" />
+                </h3>
+                <p>
+                  <br />
+                  <br />
+                  <strong>Email:</strong>
+                  <a href="mailto:info@copytrade.pro" target="_blank">info@copytrade.pro</a>
+                  <br />
+                  <strong>Телеграм:</strong>
+                  <a href="https://t.me/copytrade_pro" target="_blank"> copytrade_pro</a>
+                </p>
+              </div>
+
+              <div className="col-lg-4 col-md-6 footer-links">
+                <h4>Полезные ссылки</h4>
+                <ul>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>
+                    <a className="" href="https://copytrade.pro#hero">Главная</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>
+                    <a className="" href="https://copytrade.pro#about">О нас</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>
+                    <a className="" href="https://copytrade.pro#adventage">Наши преимущества</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>
+                    <a className="" href="/post/index">Новости</a>
+                  </li>
+
+
+                </ul>
+              </div>
+
+
+              <div className="col-lg-4 col-md-6 footer-links">
+                <h4>Социальные сети</h4>
+                <p></p>
+                <div className="social-links mt-3">
+                  <a href="https://t.me/copytrade_pro_official" className="twitter"><i className="fab fa-telegram"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </footer>
+
 
 
 
