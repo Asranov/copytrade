@@ -107,8 +107,6 @@ export default function Main() {
           </div>
         </section >
 
-
-
         <section id="statistics" className="counter-show services section-bg">
           <div className="container aos-init aos-animate" data-aos="fade-up">
             <div className="row">
@@ -157,8 +155,6 @@ export default function Main() {
             </div>
           </div>
         </section>
-
-
 
 
         <section id="adventage" className="team section-bg">
