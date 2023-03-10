@@ -22,7 +22,6 @@
   display: flex;
   height: 15vh;
   justify-content: space-around;
-  gap: 100px;
   align-items: center;
 }
 
@@ -30,7 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 32px;
 }
 
 #navbar ul li {
@@ -57,6 +56,30 @@
 #navbar .getstarted:hover {
   background-color: var(--onPrimary);
   color: #ffffff !important;
+}
+
+#navbar .dropdown ul {
+  width: 180px;
+  height: 150px;
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  top: 80px;
+  display: none;
+}
+
+#navbar .dropdown li {
+  width: 80%;
+}
+
+#navbar .dropdown li a {
+  color: var(--primary);
 }
 
 #hero {
@@ -259,7 +282,7 @@
 }
 
 #top-traders img {
-  width: 100px;
+  width: 70px;
 }
 
 #top-traders .btn {
@@ -415,4 +438,238 @@
 
 .footer-links ul li {
   list-style: none;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+  #header .container {
+    height: 15vh;
+  }
+
+  #navbar ul {
+    display: none;
+  }
+
+  #hero .row {
+    height: 70vh;
+    padding-bottom: 200px;
+  }
+
+  #hero .row h1 {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  #hero .row h2 {
+    font-size: 1rem;
+  }
+
+  #hero .aos-animate {
+    width: 250px;
+  }
+
+  #hero .aos-animate img {
+    width: 250px;
+  }
+
+  #hero .btn-get-started {
+    padding: 6px 10px;
+  }
+
+  #hero .row .justify-content-lg-start {
+    margin-top: 20px;
+  }
+
+  #about .container {
+    padding: 0px;
+  }
+
+  #about .section-title h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+
+  #about p {
+    margin: 10px 20px;
+  }
+
+  #statistics {
+    margin: 30px 0;
+  }
+
+  #statistics .row {
+    gap: 10px;
+  }
+
+  #statistics .col-xl-3 {
+    width: 200px;
+    height: 120px;
+  }
+
+  #statistics .count-number {
+    font-size: 1rem;
+  }
+
+  #statistics a {
+    font-size: 0.8rem;
+  }
+
+  #adventage .section-title {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  #adventage .row {
+    gap: 10px;
+  }
+
+  #adventage .col-lg-6 {
+    width: 500px;
+    height: 140px;
+  }
+
+  #adventage .member {
+    padding: 5px 20px;
+  }
+
+  #adventage .member-info h4 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  #adventage .member-info p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  #adventage img {
+    width: 80px;
+  }
+
+  #top-traders .section-title {
+    font-size: 1rem;
+  }
+
+  #top-traders .aos-init {
+    gap: 20px;
+  }
+
+  #top-traders .card {
+    width: 80vw;
+    padding: 0 10px;
+  }
+
+  #top-traders img {
+    width: 60px;
+  }
+
+  #top-traders .btn {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  #clients .section-title {
+    font-size: 1.5rem;
+  }
+
+  #clients .row {
+    margin: 20px 0;
+  }
+
+  #clients img {
+    width: 100px;
+  }
+
+  #blog {
+    margin: 20px 0;
+  }
+
+  #blog .section-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 30px 0;
+    color: var(--primary);
+  }
+
+  #blog .card {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 80px;
+  }
+
+  #blog img {
+    width: 130px;
+  }
+
+  #blog p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  #blog p:nth-child(3) {
+    font-size: 0.8rem;
+  }
+
+  #blog .btn {
+    padding: 8px 8px;
+    font-size: 0.8rem;
+  }
+
+  #blog .info-text {
+    text-align: end;
+    font-size: 0.8rem;
+  }
+
+  #footer {
+    width: 100%;
+    background-color: #ffffff;
+    height: 35vh;
+  }
+
+  #footer .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-contact strong {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+
+  .footer-contact a {
+    text-decoration: none;
+    color: var(--onPrimary);
+    font-size: 0.9rem;
+  }
+
+  .footer-links h4 {
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+  }
+
+  .footer-links a:hover {
+    color: var(--onPrimary);
+  }
+
+  .footer-links ul {
+    margin-bottom: 10px;
+  }
+
+  .footer-links ul li {
+    list-style: none;
+  }
 }

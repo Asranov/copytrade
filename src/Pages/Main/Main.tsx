@@ -34,7 +34,8 @@ export default function Main() {
                   Новости
                 </a>
               </li>
-              {/* <li className='dropdown'>
+
+              <li className='dropdown'>
                 <a href="#">
                   <img src="https://copytrade.pro/img/locales/ru.png" alt="" />
                   <span>Русский (РФ)</span>
@@ -45,7 +46,8 @@ export default function Main() {
                   <li><a href="/site/set-locale?locale=ru"><img src="https://copytrade.pro/img/locales/ru.png" alt="" />Русский (РФ)</a></li>
                   <li><a href="/site/set-locale?locale=uz"><img src="https://copytrade.pro/img/locales/uz.png" alt="" />O'zbek (UZ)</a></li>
                 </ul>
-              </li> */}
+              </li>
+
               <li>
                 <a className="getstarted scrollto" href="/user">
                   Hачать
