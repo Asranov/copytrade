@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary: #1261a0;
+  --onPrimary: #47b2e4;
+}
+
+.main__signin__container {
+  width: 100vw;
+  height: 100vh;
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
