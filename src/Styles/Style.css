@@ -86,7 +86,6 @@
   max-width: 100vw;
   height: 88vh;
   background-image: url("https://wallpaper.dog/large/20563713.jpg");
-  /* background-color: #1261a0; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,6 +138,20 @@
 
 #hero .aos-animate img {
   width: 360px;
+  position: relative;
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
 }
 
 #hero .btn-get-started {
