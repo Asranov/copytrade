@@ -81,8 +81,6 @@ export default function Main() {
 
       <main id='main'>
 
-
-
         <section id="about" className="about section-bg">
           <div className="container aos-init aos-animate" data-aos="fade-up">
 
